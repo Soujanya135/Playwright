@@ -1,0 +1,76 @@
+{
+  "abTestLink": "a[href='/abtest']",
+  "abTestHeader": "div.example h3",
+
+  "login": "//a[text()='Add/Remove Elements']",
+  "addButton": "//button[contains(text(),'Add Element')]",
+  "deleteButton": "//button[@onclick='deleteElement()']",
+  "addRemoveHeader": "h3",
+
+  "checkboxLogin": "//a[contains(text(),'Checkboxes')]",
+  "checkboxHeader": "//h3[contains(text(),'Checkboxes')]",
+  "checkbox1": "#checkboxes input:nth-of-type(1)",
+  "checkbox2": "#checkboxes input:nth-of-type(2)",
+
+  "dragDropLogin": "//a[contains(text(),'Drag and Drop')]",
+  "column1": "#column-a",
+  "column2": "#column-b",
+  "dragDropHeader": "//h3",
+
+  "dropdownLogin": "//a[contains(text(),'Dropdown')]",
+  "dropdownHeader": "#content",
+  "selectOption": "//select[@id='dropdown']",
+  "option1": { "label": "Option 1" },
+  "option2": { "value": "2" },
+
+  "basicAuthLink": "//a[contains(text(),'Basic Auth')]",
+
+  "formAuthLink": "//a[contains(text(),'Form Authentication')]",
+  "username": "#username",
+  "password": "#password",
+  "loginButton": "//i[@class='fa fa-2x fa-sign-in']",
+
+  "forgotPasswordLink": "//a[contains(text(),'Forgot Password')]",
+  "forgotHeader": "//h2[contains(text(),'Forgot Password')]",
+  "email": "#email",
+  "submitButton": ".icon-2x.icon-signin",
+
+  "hoverLink": "a[href='/hovers']",
+  "user1": "//div[@class='example']//div[1]//img[1]",
+
+  "alertLink": "//a[contains(text(),'JavaScript Alerts')]",
+  "simpleAlert": "button[onclick='jsAlert()']",
+  "confirmAlert": "button[onclick='jsConfirm()']",
+  "alertResult": "#result",
+
+  "framesLink": "a[href='/frames']",
+  "iFrameLink": "//a[contains(text(),'iFrame')]",
+  "iframeLocator": "#mce_0_ifr",
+
+  "multipleWindowLink": "//a[contains(text(),'Multiple Windows')]",
+  "newWindowLink": "a[href='/windows/new']",
+
+  "sortableTableLink": "//a[contains(text(),'Sortable Data Tables')]",
+  "rows": "#table1 tbody tr",
+  "columns": "#table1 thead th",
+
+  "contextMenuLink": "//a[contains(text(),'Context Menu')]",
+  "hotSpotBox": "#hot-spot",
+
+  "digestAuthLink": "//a[contains(text(),'Digest Authentication')]",
+
+  "dynamicLoadingLink": "/dynamic_loading",
+  "dynamicExample1": "//a[contains(text(),'Example 1: Element on page that is hidden')]",
+  "dynamicExample2": "//a[contains(text(),'Example 2: Element rendered after the fact')]",
+  "startButton": "//button[contains(text(),'Start')]",
+  "loadingIcon": "#loading",
+  "finishText": "#finish",
+
+  "downloadPageLink": "/download",
+  "file1": "//a[contains(text(),'Test2.pdf')]",
+  "file2": "//a[contains(text(),'Test123.txt')]",
+
+  "shiftingContentLink": "/shifting_content",
+  "menuExampleLink": "//a[contains(text(),'Example 1: Menu Element')]"
+}
+

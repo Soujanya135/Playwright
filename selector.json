@@ -1,0 +1,45 @@
+{
+    "username":"#username",
+    "password": "#password",
+    "loginbutton": "//i[@class='fa fa-2x fa-sign-in']",
+    
+    "header": "//h2[contains(text(),'Forgot Password')]",
+    "email": "#email",
+    "submitButton": ".icon-2x.icon-signin",
+
+    "login":"//a[text()='Add/Remove Elements']",
+    "addbutton":"//button[contains(text(),'Add Element')]",
+    "deleteButton":"//button[@onclick='deleteElement()']",
+
+   
+    "checkboxlogin":"//a[contains(text(),'Checkboxes')]",
+    "checkboxValidation":"//h3[contains(text(),'Checkboxes')]",
+    "checkbox1":"#checkboxes input",
+    "checkbox2":"#checkboxes input",
+
+    "drag_droplogin":"//a[contains(text(),'Drag and Drop')]",
+    "column1":"#column-a",
+    "column2":"#column-b",
+  
+    "dropdownlogin":"//a[contains(text(),'Dropdown')]",
+    "selectOption":"//select[@id='dropdown']",
+    "option1":{ "label":" Option 1" },
+    "option2":{ "value": "2" },
+   
+    "multipleWindow":"//a[contains(text(),'Multiple Windows')]",
+    "newwindow":"a[href='/windows/new']",
+
+    "simpleAlert":"button[onclick='jsAlert()']",
+    "confirmAlert":"button[onclick='jsConfirm()']",
+
+    "rows":"#table1 tbody tr",
+    "column":"#table1 thead th",
+
+    "hover":"a[href='/hovers']",
+    "user1":"//div[@class='example']//div[1]//img[1]",
+
+    "dynamicLoading1":"//a[contains(text(),'Example 1: Element on page that is hidden')]",
+    "dynamicLoading2":"//a[contains(text(),'Example 2: Element rendered after the fact')]"
+
+}
+

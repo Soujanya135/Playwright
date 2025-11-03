@@ -1,0 +1,22 @@
+{
+   "openMenu":"//button[contains(text(),'Open Menu')]",
+   "menulist":".bm-item-list",
+   "about":"//a[contains(text(),'About')]",
+   "product":"//span[@class='MuiTypography-root MuiTypography-buttonLabelNav css-3bxbw2'][normalize-space()='Products']",
+   "backgroundColor":".header_secondary_container",
+   "dropDown":".product_sort_container",
+   "addtoCart":"//button[@class='btn_primary btn_inventory'])[1]",
+   "checkoutButton":"//a[@class='btn_action checkout_button']",
+   "submit":"//input[@type='submit']",
+   "logout":"#logout_sidebar_link",
+   "cartButton":".btn_action.cart_button",
+   "maxWidth":"//div[@class='login_wrapper-inner']",
+   "fontSize":"#item_5_img_link"
+
+
+
+
+
+
+
+}
